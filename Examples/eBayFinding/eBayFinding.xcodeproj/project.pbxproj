@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		CA91023DCB67922F5D856E49 /* libPods-eBayFinding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C470CA0ED95880BBC71D7D09 /* libPods-eBayFinding.a */; };
+		516AE45DD79DC680A95E6D4A /* Pods_eBayFinding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F119BD1EBF3708B3E82A0A9F /* Pods_eBayFinding.framework */; };
 		CE0C044A1701DABE008597EC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE0C04491701DABE008597EC /* Entitlements.plist */; };
 		CEDDB0F416F5C1C7008632A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDDB0F316F5C1C7008632A8 /* QuartzCore.framework */; };
 		CEF613E116F4870500A3CB13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF613E016F4870500A3CB13 /* UIKit.framework */; };
@@ -114,7 +114,6 @@
 /* Begin PBXFileReference section */
 		55480F7F5F796DD7E359C26F /* Pods-eBayFinding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBayFinding.release.xcconfig"; path = "Pods/Target Support Files/Pods-eBayFinding/Pods-eBayFinding.release.xcconfig"; sourceTree = "<group>"; };
 		7F7818DE90FC2120012D44EE /* Pods-eBayFinding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBayFinding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eBayFinding/Pods-eBayFinding.debug.xcconfig"; sourceTree = "<group>"; };
-		C470CA0ED95880BBC71D7D09 /* libPods-eBayFinding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eBayFinding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0C04491701DABE008597EC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		CE565B9316F5A5880097A66B /* libPico.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPico.a; path = "../Pico/build/Release-iphoneos/libPico.a"; sourceTree = "<group>"; };
 		CEDDB0F316F5C1C7008632A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -283,6 +282,7 @@
 		D05E2AB61AD436C4003F2B1A /* Finding_Storefront.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finding_Storefront.m; sourceTree = "<group>"; };
 		D05E2AB71AD436C4003F2B1A /* Finding_UnitPriceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finding_UnitPriceInfo.h; sourceTree = "<group>"; };
 		D05E2AB81AD436C4003F2B1A /* Finding_UnitPriceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finding_UnitPriceInfo.m; sourceTree = "<group>"; };
+		F119BD1EBF3708B3E82A0A9F /* Pods_eBayFinding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eBayFinding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,7 +294,7 @@
 				CEF613E116F4870500A3CB13 /* UIKit.framework in Frameworks */,
 				CEF613E316F4870500A3CB13 /* Foundation.framework in Frameworks */,
 				CEF613E516F4870500A3CB13 /* CoreGraphics.framework in Frameworks */,
-				CA91023DCB67922F5D856E49 /* libPods-eBayFinding.a in Frameworks */,
+				516AE45DD79DC680A95E6D4A /* Pods_eBayFinding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +337,7 @@
 				CEF613E016F4870500A3CB13 /* UIKit.framework */,
 				CEF613E216F4870500A3CB13 /* Foundation.framework */,
 				CEF613E416F4870500A3CB13 /* CoreGraphics.framework */,
-				C470CA0ED95880BBC71D7D09 /* libPods-eBayFinding.a */,
+				F119BD1EBF3708B3E82A0A9F /* Pods_eBayFinding.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -602,6 +602,7 @@
 				CEF613D916F4870500A3CB13 /* Frameworks */,
 				CEF613DA16F4870500A3CB13 /* Resources */,
 				EC2702264B35C6CD3BF3BCB7 /* Copy Pods Resources */,
+				CA6268C5A60BC0269253AD7E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -675,6 +676,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6268C5A60BC0269253AD7E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eBayFinding/Pods-eBayFinding-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D05E2A1F1AD4355B003F2B1A /* ShellScript */ = {
@@ -842,7 +858,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -863,7 +879,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -883,7 +899,6 @@
 				GCC_PREFIX_HEADER = "eBayFinding/eBayFinding-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "eBayFinding/eBayFinding-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Users/user/Library/Developer/Xcode/DerivedData/pico-flaiacivepfbdbamtajfyrqsjxae/Build/Products/Debug-iphoneos\"",
@@ -906,7 +921,6 @@
 				GCC_PREFIX_HEADER = "eBayFinding/eBayFinding-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "eBayFinding/eBayFinding-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"/Users/user/Library/Developer/Xcode/DerivedData/pico-flaiacivepfbdbamtajfyrqsjxae/Build/Products/Debug-iphoneos\"",
@@ -959,6 +973,7 @@
 				D05E2A1E1AD43550003F2B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

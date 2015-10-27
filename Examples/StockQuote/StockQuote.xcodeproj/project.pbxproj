@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		B51550FC23552B92215E1FE6 /* libPods-StockQuote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860C416E127DAE1DC4E876B9 /* libPods-StockQuote.a */; };
+		2E9FB0C006CD700D81B77B80 /* Pods_StockQuote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF7573C5D26BDECA50A61C5 /* Pods_StockQuote.framework */; };
 		CE0C044D1701DF85008597EC /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE0C044C1701DF85008597EC /* Entitlements.plist */; };
 		CEFA65C216F82843009114F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA65C116F82843009114F7 /* UIKit.framework */; };
 		CEFA65C416F82843009114F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA65C316F82843009114F7 /* Foundation.framework */; };
@@ -36,14 +36,13 @@
 		D05E29D71AD42CE1003F2B1A /* StockQuoteSoap_XMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29CF1AD42CE1003F2B1A /* StockQuoteSoap_XMLClient.m */; };
 		D05E29D81AD42CE1003F2B1A /* GetQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29D31AD42CE1003F2B1A /* GetQuote.m */; };
 		D05E29D91AD42CE1003F2B1A /* GetQuoteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29D51AD42CE1003F2B1A /* GetQuoteResponse.m */; };
-		D0B557B01BB98BEE00BC4083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557AF1BB98BEE00BC4083 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D0B557B21BB98BFF00BC4083 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557B11BB98BFF00BC4083 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D0B557B01BB98BEE00BC4083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557AF1BB98BEE00BC4083 /* Main.storyboard */; };
+		D0B557B21BB98BFF00BC4083 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557B11BB98BFF00BC4083 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		346F329CD7E09444CA2CDFDF /* Pods-StockQuote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockQuote.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockQuote/Pods-StockQuote.release.xcconfig"; sourceTree = "<group>"; };
 		4B624CA642F71908A1A95029 /* Pods-StockQuote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockQuote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockQuote/Pods-StockQuote.debug.xcconfig"; sourceTree = "<group>"; };
-		860C416E127DAE1DC4E876B9 /* libPods-StockQuote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StockQuote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0C044C1701DF85008597EC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		CEFA65BD16F82843009114F7 /* StockQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFA65C116F82843009114F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +71,7 @@
 		D05E29D51AD42CE1003F2B1A /* GetQuoteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetQuoteResponse.m; sourceTree = "<group>"; };
 		D0B557AF1BB98BEE00BC4083 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D0B557B11BB98BFF00BC4083 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FCF7573C5D26BDECA50A61C5 /* Pods_StockQuote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockQuote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 				CEFA65C216F82843009114F7 /* UIKit.framework in Frameworks */,
 				CEFA65C416F82843009114F7 /* Foundation.framework in Frameworks */,
 				CEFA65C616F82843009114F7 /* CoreGraphics.framework in Frameworks */,
-				B51550FC23552B92215E1FE6 /* libPods-StockQuote.a in Frameworks */,
+				2E9FB0C006CD700D81B77B80 /* Pods_StockQuote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 				CEFA65C116F82843009114F7 /* UIKit.framework */,
 				CEFA65C316F82843009114F7 /* Foundation.framework */,
 				CEFA65C516F82843009114F7 /* CoreGraphics.framework */,
-				860C416E127DAE1DC4E876B9 /* libPods-StockQuote.a */,
+				FCF7573C5D26BDECA50A61C5 /* Pods_StockQuote.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,6 +219,7 @@
 				CEFA65BA16F82843009114F7 /* Frameworks */,
 				CEFA65BB16F82843009114F7 /* Resources */,
 				4B65AB1B2F97F623C06FD690 /* Copy Pods Resources */,
+				428E82E22A4035079E7E1729 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +277,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		428E82E22A4035079E7E1729 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockQuote/Pods-StockQuote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4B65AB1B2F97F623C06FD690 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,7 +390,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,7 +412,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -409,13 +425,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B624CA642F71908A1A95029 /* Pods-StockQuote.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StockQuote/StockQuote-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "StockQuote/StockQuote-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -428,13 +444,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 346F329CD7E09444CA2CDFDF /* Pods-StockQuote.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StockQuote/StockQuote-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "StockQuote/StockQuote-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

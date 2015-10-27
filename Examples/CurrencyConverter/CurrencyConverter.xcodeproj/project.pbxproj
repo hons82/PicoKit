@@ -35,8 +35,8 @@
 		D05E29F01AD430EF003F2B1A /* ConversionRate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29E91AD430EF003F2B1A /* ConversionRate.m */; };
 		D05E29F11AD430EF003F2B1A /* ConversionRateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29EB1AD430EF003F2B1A /* ConversionRateResponse.m */; };
 		D05E29F21AD430EF003F2B1A /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29ED1AD430EF003F2B1A /* Currency.m */; };
-		D0B557B81BB9966E00BC4083 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557B71BB9966E00BC4083 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D0B557BA1BB9967D00BC4083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557B91BB9967D00BC4083 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D0B557B81BB9966E00BC4083 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557B71BB9966E00BC4083 /* Launch Screen.storyboard */; };
+		D0B557BA1BB9967D00BC4083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557B91BB9967D00BC4083 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -364,7 +364,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +385,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,7 +402,6 @@
 				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "CurrencyConverter/CurrencyConverter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -419,7 +418,6 @@
 				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "CurrencyConverter/CurrencyConverter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";

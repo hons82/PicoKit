@@ -1,21 +1,22 @@
 Pod::Spec.new do |s|
   s.name             = 'PicoKit'
-  s.version          = '0.7.2'
+  s.version          = '0.8.0'
   s.summary          = 'A light Web Service client framework targeting iOS platform.'
   s.homepage         = 'https://github.com/maxep/PicoKit'
   s.author           = { 	"William Yang" => "http://bulldog2011.github.io/",
                             "Maxime Epain" => "http://maxep.github.io/" }
   s.social_media_url = 'https://twitter.com/MaximeEpain'
-  s.source           = { :git => 'https://github.com/maxep/PicoKit.git', :tag => "v#{s.version}" }
+  s.source           = { :git => 'https://github.com/hons82/PicoKit.git', :tag => "v#{s.version}" }
+#  s.source           = { :git => 'https://github.com/maxep/PicoKit.git', :tag => "v#{s.version}" }
   s.license          = 'MIT'
   s.default_subspec  = 'WebService'
 
   s.library = 'xml2'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  s.xcconfig					= { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES" }
 
   # Platform setup
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
 
   ### Subspecs

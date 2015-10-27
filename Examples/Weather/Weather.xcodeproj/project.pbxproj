@@ -49,14 +49,14 @@
 		D05E29BF1AD41077003F2B1A /* WeatherReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E29AF1AD41077003F2B1A /* WeatherReturn.m */; };
 		D05E29C11AD413AC003F2B1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E29C01AD413AC003F2B1A /* SystemConfiguration.framework */; };
 		D05E29C31AD413B6003F2B1A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E29C21AD413B6003F2B1A /* MobileCoreServices.framework */; };
-		D0B557AC1BB981F900BC4083 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557AB1BB981F900BC4083 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D0B557AE1BB9833100BC4083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557AD1BB9833100BC4083 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D7B135C63008C2D2319C95BD /* libPods-Weather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FCA6F9618505F5E5A00655 /* libPods-Weather.a */; };
+		D0B557AC1BB981F900BC4083 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557AB1BB981F900BC4083 /* Launch Screen.storyboard */; };
+		D0B557AE1BB9833100BC4083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B557AD1BB9833100BC4083 /* Main.storyboard */; };
+		F5800ED95E6895484D27E437 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469725EB2E0F5038D3886B2D /* Pods_Weather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		027AB5EC8D1570466760E29B /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
-		A9FCA6F9618505F5E5A00655 /* libPods-Weather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		469725EB2E0F5038D3886B2D /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C170B855303430FEA3C2D335 /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB9581416F9DDE30051551F /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB9581816F9DDE30051551F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -125,7 +125,7 @@
 				CEB9581916F9DDE30051551F /* UIKit.framework in Frameworks */,
 				CEB9581B16F9DDE30051551F /* Foundation.framework in Frameworks */,
 				CEB9581D16F9DDE30051551F /* CoreGraphics.framework in Frameworks */,
-				D7B135C63008C2D2319C95BD /* libPods-Weather.a in Frameworks */,
+				F5800ED95E6895484D27E437 /* Pods_Weather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +169,7 @@
 				CEB9581816F9DDE30051551F /* UIKit.framework */,
 				CEB9581A16F9DDE30051551F /* Foundation.framework */,
 				CEB9581C16F9DDE30051551F /* CoreGraphics.framework */,
-				A9FCA6F9618505F5E5A00655 /* libPods-Weather.a */,
+				469725EB2E0F5038D3886B2D /* Pods_Weather.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -302,6 +302,7 @@
 				CEB9581116F9DDE30051551F /* Frameworks */,
 				CEB9581216F9DDE30051551F /* Resources */,
 				8B1E9AD5F0780B1E5B72EDA0 /* Copy Pods Resources */,
+				A7EE4D37A0BFA678AE67F8BC /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -388,6 +389,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather/Pods-Weather-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A7EE4D37A0BFA678AE67F8BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D0D637FD1AD6EB6600118AA5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,7 +483,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,7 +504,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,12 +516,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C170B855303430FEA3C2D335 /* Pods-Weather.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Weather/Weather-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -517,12 +533,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 027AB5EC8D1570466760E29B /* Pods-Weather.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Weather/Weather-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";

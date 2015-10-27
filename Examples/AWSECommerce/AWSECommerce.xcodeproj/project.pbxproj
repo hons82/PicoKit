@@ -161,8 +161,8 @@
 		D07B68981AD469DA00D309F8 /* VariationDimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B68151AD469DA00D309F8 /* VariationDimensions.m */; };
 		D07B68991AD469DA00D309F8 /* Variations.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B68171AD469DA00D309F8 /* Variations.m */; };
 		D07B689A1AD469DA00D309F8 /* VariationSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B68191AD469DA00D309F8 /* VariationSummary.m */; };
-		D0F091A71BBA8F2B00668810 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F091A61BBA8F2B00668810 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D0F091A91BBA8F3400668810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F091A81BBA8F3400668810 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D0F091A71BBA8F2B00668810 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F091A61BBA8F2B00668810 /* Launch Screen.storyboard */; };
+		D0F091A91BBA8F3400668810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F091A81BBA8F3400668810 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1405,7 +1405,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1426,7 +1426,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1443,7 +1443,6 @@
 				GCC_PREFIX_HEADER = "AWSECommerce/AWSECommerce-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "AWSECommerce/AWSECommerce-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -1460,7 +1459,6 @@
 				GCC_PREFIX_HEADER = "AWSECommerce/AWSECommerce-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "AWSECommerce/AWSECommerce-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Leansoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";

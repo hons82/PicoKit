@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 LeanSoft Technology. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
+@import AFNetworking;
 #import "PicoBindable.h"
 #import "PicoSOAPRequestOperation.h"
 #import "PicoConfig.h"
